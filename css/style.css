@@ -1,0 +1,82 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+
+.table{
+    width: 60%;
+    text-align: center;
+    border-collapse: collapse;
+    display: flex;
+    justify-content: center;
+}
+
+.border{
+    border: solid;
+    border-width: 2px;
+    padding: 10px;
+}
+
+.center{
+    justify-content: center;
+    display: flex;
+}
+
+.less{
+    width: 25px;
+}
+
+.title{
+    margin-bottom: 3%;
+}
+
+.button{
+    text-align: center;
+    margin-top: 25px;
+}
+
+h1{
+    text-align: center;
+}
+
+.aesthetics{
+    padding-bottom: 5%;
+    padding-top: 5%;
+    margin-top: 10%;
+    margin-left: 15%;
+    border: solid;
+    width: 70%;
+    border-width: 2px;
+    border-radius: 15px;
+}
+
+.erreur{
+    font:10pt arial;
+    color:#c01b1b;
+    background-color:#EEEEEE;
+    padding:10px;
+    border-radius:10px;
+    margin-bottom:10px;
+ }
+
+ .succes{
+    font: 10pt arial;
+    color: #1acc38;
+    background-color: #EEEEEE;
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+ }
+
+ .btn.btn-secondary{
+    background-color: red;
+    border-color: red;
+ }
+
+.btn-secondary :hover{
+     background-color: rgb(216, 9, 9);
+     border-color: rgb(216, 9, 9);
+ }
